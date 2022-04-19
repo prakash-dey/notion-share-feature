@@ -1,0 +1,129 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transform: 0.6s all;
+}
+
+/* General */
+.container{
+  max-width: 2000px;
+  margin: 0 auto;
+}
+
+table{
+  border-collapse: collapse;
+  width: 80%; 
+  padding: 0 2rem;
+
+}
+.outer-table{
+  border: 1px solid black;
+  margin-top: 2rem;
+}
+.history-table{
+  width: 100%;
+}
+thead{
+  width: 100%;
+  background-color: #3838fb;
+  font-size: 22px;
+  color: white;
+}
+tr{
+  cursor: pointer;
+}
+
+td,th{
+  border-bottom: 1px solid black;
+  text-align: start;
+  width: 20%;
+  height: 4rem;
+  padding: 0 2rem;
+  font-size: 18px;
+}
+
+
+
+/* Buttons */
+button{
+  font-size: 18px;
+  outline: none;
+  border: 1px solid black;
+  color: black;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+.btn-lock{
+  height: 80%;
+  width: 80%;
+  min-width: 4rem;
+}
+.uil-lock,.uil-unlock-alt{
+  color: white;
+  font-size: 24px;
+}
+.btn-cont{
+  margin: 1rem 0;
+  padding: 0 1rem;
+  text-align: end;
+}
+.btn-update{
+  height: 3rem;
+  width: 8rem;
+  background-color: #3838fb;
+
+  color: white;
+}
+
+
+
+/* Hidden Row (History Table) */
+.inner-tr{
+  background-color: #78b1fb3d;
+}
+.inner-tr > td{
+  padding: 0;
+
+}
+.history-table-cont{
+  margin: 0;
+  border: black solid 1px;
+  border-top: none;
+}
+/* History table */
+.history-table{
+  border-collapse: collapse;
+}
+.history-table thead{
+  background-color: #046ffc59;
+  color: black;
+
+}
+
+/* Input fields */
+input{
+  border: none;
+  outline: none;
+  background-color: inherit;
+  font-size: inherit;
+}
+input:focus{
+  border-bottom: 1px solid black;
+
+}
+
+.sub-heading{
+  font-size: 12px;
+  color: #9c9ca1;
+}
+
+.active{
+  background-color: #2a81f266;
+  border: black 2px solid;
+  border-bottom: none;
+  box-shadow: 4px 4px 4px rgb(39, 39, 39);
+ 
+}
+
